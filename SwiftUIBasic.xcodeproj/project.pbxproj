@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2FF7452B2E41ECD6001F0DB3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2FF745292E41ECD6001F0DB3 /* .gitignore */; };
+		2FF7452C2E41ECD6001F0DB3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2FF7452A2E41ECD6001F0DB3 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2FF7450D2E41EC33001F0DB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		2FF744FC2E41EC32001F0DB3 /* SwiftUIBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF7450C2E41EC33001F0DB3 /* SwiftUIBasicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBasicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF745162E41EC33001F0DB3 /* SwiftUIBasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBasicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF745292E41ECD6001F0DB3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2FF7452A2E41ECD6001F0DB3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		2FF744F32E41EC32001F0DB3 = {
 			isa = PBXGroup;
 			children = (
+				2FF745292E41ECD6001F0DB3 /* .gitignore */,
+				2FF7452A2E41ECD6001F0DB3 /* README.md */,
 				2FF744FE2E41EC32001F0DB3 /* SwiftUIBasic */,
 				2FF7450F2E41EC33001F0DB3 /* SwiftUIBasicTests */,
 				2FF745192E41EC33001F0DB3 /* SwiftUIBasicUITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF7452B2E41ECD6001F0DB3 /* .gitignore in Resources */,
+				2FF7452C2E41ECD6001F0DB3 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
